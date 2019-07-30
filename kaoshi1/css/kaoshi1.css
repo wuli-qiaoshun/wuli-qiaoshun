@@ -1,0 +1,146 @@
+.main{
+	width: 1140px;
+	height: 1000px;
+	margin: 0 auto;
+}
+header{
+	width: 1140px;
+	height: 40px;
+	padding-top: 15px;
+	border: 1px solid #e4e4e4;
+	float: left;
+}
+header ul li{
+	float: left;
+	color: #484848;
+	font-size: 14px;
+	margin: 0px 20px;
+	cursor: pointer;
+	padding: 5px 10px;
+}
+header ul li:hover{
+	background-color: #ff3333;
+	color: white;
+	padding: 5px 10px;
+	border-radius: 5px;
+}
+section{
+	width: 1140px;
+	height: 1000px;
+}
+.zhuti{
+	width: 560px;
+	height: 200px;
+	border: 1px solid #e4e4e4;
+	float: left;
+	cursor: pointer;
+	margin-right: 10px;
+	margin-top: 15px;
+}
+#beijing{
+	float: right;
+	font-size: 10px;
+	color: #aaaaaa;
+	margin-top: -20px;
+	padding-left: 14px;
+	background:url(../img/img_1.gif) no-repeat;
+}
+.zhuti:hover{
+	box-shadow: 0px 0px 5px #8C8C8C;
+}
+.zhuti img{
+	float: left;
+	width: 117px;
+	height: 117px;
+	border-radius:50%;
+	margin-top: 36px;
+	margin-left: 21px;
+	cursor: pointer;
+}
+.zhuti img:hover{
+	transition: all 2s;
+	transform: rotate(360deg);
+}
+.zhuti h1{
+	float: left;
+	width: 400px;
+	color: #333333;
+	margin-top: 36px;
+	margin-left: 10px;
+}
+.one li{
+	float: left;
+	margin-left: 10px;
+	color: white;
+	background-color: #53bc5a;
+	margin-top: 10px;
+	font-size: 14px;
+	padding: 5px 8px;
+	cursor: pointer;
+	transition: all 2s;
+}
+.one li:hover{
+	background-color: red;
+	transform: translate(4px,8px);
+}
+.two li{
+	float: left;
+	margin-top: 30px;
+	margin-left: 10px;
+	color: #666666;
+	font-size: 12px;
+}
+.two li:first-of-type{
+	color: #333333;
+}
+
+
+.zhuti1{
+	width: 560px;
+	height: 200px;
+	border: 1px solid #e4e4e4;
+	float: right;
+	cursor: pointer;
+	margin-top: 15px;
+	
+}
+.zhuti1:hover{
+	box-shadow: 0px 0px 5px #8C8C8C;
+}
+.zhuti1 img{
+	float: left;
+	width: 117px;
+	height: 117px;
+	border-radius:50%;
+	margin-top: 36px;
+	margin-left: 21px;
+	cursor: pointer;
+}
+.zhuti1 img:hover{
+	transition: all 2s;
+	transform: rotate(360deg);
+}
+.zhuti1 h1{
+	float: left;
+	width: 400px;
+	color: #333333;
+	margin-top: 36px;
+	margin-left: 10px;
+}
+
+aside img{
+	cursor: pointer;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+aside img{
+    animation: noe 3s linear both;
+}
+@keyframes noe{
+    0%{transform: translate(0px,200px);}
+    33%{transform: translate(100px,400px);}
+    66%{transform: translate(500px,600px);}
+    80%{transform: translate(800px,700px);}
+    100%{transform: translate(1250px,800px);}
+}
